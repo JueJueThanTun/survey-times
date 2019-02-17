@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/survey3"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Survey Time"
+       android:textSize="40dp"
+       android:textColor="#000000"
+       android:fontFamily="@font/playfairdisplayscrg" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="M a k e  Y o u r  S u r v e y  S m a r t !"/>
+
+    <Button
+        android:id="@+id/btnCreateSurvey"
+        android:layout_marginTop="70dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg1"
+        android:text="CREATE SURVEY"
+        android:textColor="#ffffff"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/btnEnterPin"
+        android:layout_marginTop="15dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg2"
+        android:text="ENTER PIN"
+        android:textColor="#1565c0"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+</LinearLayout>
